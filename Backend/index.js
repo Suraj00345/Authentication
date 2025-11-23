@@ -17,9 +17,10 @@ app.use(cors());
 app.use("/auth", AuthRouter);
 app.use("/products", ProductRouter);
 
-app.post("/ping", (req, res) => {
+app.get("/ping", (req, res) => {
   res.send("PONG");
 });
+
 
 //listing the port
 app.listen(PORT, () => {
