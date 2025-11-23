@@ -47,7 +47,7 @@ const Home = () => {
    */
   const fetchProducts = async () => {
     try {
-      const url = "https://authentication-fawn-iota.vercel.app/products";
+      const url = "https://authentication-1-p1ax.onrender.com/products";
       const token = localStorage.getItem("token");
       // console.log(token);
 

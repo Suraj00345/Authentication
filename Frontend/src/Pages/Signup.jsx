@@ -26,7 +26,7 @@ const Signup = () => {
     }
 
     try {
-      const response = await fetch("https://authentication-fawn-iota.vercel.app/signup", {
+      const response = await fetch("https://authentication-1-p1ax.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
